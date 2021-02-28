@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c2c55ca-6071-4a0a-b06d-83b2a2c475ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output/relatorio_movimentos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOU.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intersection_Over_Union/IOU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prediction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/baby_awake.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output/baby_awake.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relatorio_movimentos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/relatorio_movimentos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/relatorio_movimentos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sleeping_monitoring_op1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleeping_monitoring_op1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +51,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\input" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\Intersection_Over_Union" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\output" />
     </key>
   </component>
   <component name="RunManager" selected="Python.sleeping_monitoring_op1">
+    <configuration name="IOU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Projeto_VC_35425_35466" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intersection_Over_Union" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intersection_Over_Union/IOU.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="labelImg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projeto_VC_35425_35466" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.sleeping_monitoring_op1" />
+        <item itemvalue="Python.IOU" />
         <item itemvalue="Python.labelImg" />
       </list>
     </recent_temporary>
@@ -126,7 +153,9 @@
       <workItem from="1614295216950" duration="1510000" />
       <workItem from="1614349921753" duration="1834000" />
       <workItem from="1614515157321" duration="177000" />
-      <workItem from="1614516994715" duration="2473000" />
+      <workItem from="1614516994715" duration="2598000" />
+      <workItem from="1614551749934" duration="469000" />
+      <workItem from="1614552240691" duration="3803000" />
     </task>
     <servers />
   </component>
@@ -150,29 +179,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1614297422104" />
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom" timestamp="1614518784664">
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1614556163263">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614518784664" />
-    <state width="1323" height="185" key="GridCell.Tab.0.center" timestamp="1614518784664">
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614556163263" />
+    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1614556163263">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614518784664" />
-    <state width="1323" height="185" key="GridCell.Tab.0.left" timestamp="1614518784664">
+    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614556163263" />
+    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1614556163263">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614518784664" />
-    <state width="1323" height="185" key="GridCell.Tab.0.right" timestamp="1614518784664">
+    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614556163263" />
+    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1614556163263">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614518784664" />
-    <state x="98" y="29" width="998" height="709" key="SettingsEditor" timestamp="1614518782469">
+    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614556163263" />
+    <state x="98" y="29" width="998" height="709" key="SettingsEditor" timestamp="1614552143157">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="98" y="29" width="998" height="709" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1614518782469" />
+    <state x="98" y="29" width="998" height="709" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1614552143157" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tese_de_Mestrado_Imagem$sleeping_monitoring_op1.coverage" NAME="sleeping_monitoring_op1 Coverage Results" MODIFIED="1614517656258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado_Imagem$sleeping_monitoring_op1.coverage" NAME="sleeping_monitoring_op1 Coverage Results" MODIFIED="1614556125610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tese_de_Mestrado_Imagem$labelImg.coverage" NAME="labelImg Coverage Results" MODIFIED="1613071592089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/labelImg-master" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado_Imagem$IOU.coverage" NAME="IOU Coverage Results" MODIFIED="1614553376670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Intersection_Over_Union" />
   </component>
 </project>

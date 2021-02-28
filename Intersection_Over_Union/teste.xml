@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Intersection_Over_Union</folder>
+	<filename>teste.png</filename>
+	<path>C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\Intersection_Over_Union\teste.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>596</width>
+		<height>335</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>237</xmin>
+			<ymin>32</ymin>
+			<xmax>367</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+</annotation>

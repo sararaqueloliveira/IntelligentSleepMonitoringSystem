@@ -56,6 +56,7 @@ class Prediction:
                                               self.left_eye_end_index]
 
             (x, y, w, h) = cv2.boundingRect(np.array([left_eye_indices]))
+
             left_eye = gray[y:y + h, x:x + w]
 
             right_eye_indices = face_landmarks[self.right_eye_start_index:
@@ -66,15 +67,16 @@ class Prediction:
 
             left_eye_open = 'yes' if self.predict_eye_state(image=left_eye) else 'no'
             right_eye_open = 'yes' if self.predict_eye_state(image=right_eye) else 'no'
+            print(x1, y1, x2, y2)
 
             if left_eye_open == 'yes' and right_eye_open == 'yes':
                 cv2.putText(frame, "Olhos abertos - 100%", (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (255, 255, 255), 1)
-                cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                #cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
             elif left_eye_open == 'yes' and right_eye_open == 'no' or left_eye_open == 'no' and right_eye_open == 'yes':
                 cv2.putText(frame, "Olhos semi-fechados", (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (255, 255, 255), 1)
-                cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                #cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
             else:
                 cv2.putText(frame, "Olhos fechados", (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.35, (255, 255, 255), 1)
-                cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+                #cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
         return frame

@@ -5,7 +5,7 @@ import cv2
 from Prediction import Prediction
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-v", "--video", help="Vídeo de Input", default="input/baby_awake.mp4")
+ap.add_argument("-v", "--video", help="Vídeo de Input", default="input/baby_awake_short.mp4")
 ap.add_argument("-a", "--min-area", type=int, default=5000, help="Área mínima de movimento")
 args = vars(ap.parse_args())
 
@@ -29,9 +29,14 @@ n_movimentos = 0
 n_frames = int(vs.get(cv2.CAP_PROP_FRAME_COUNT))
 
 # Processar o vídeo frame por frame
+i = 0
 while True:
     frame = vs.read()
+    i = i+1
+    print(i)
     frame = frame if args.get("video", None) is None else frame[1]
+    cv2.imwrite('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/Intersection_Over_Union/IOU_baby_awake/frames/frame' + str(i) + '.jpg', frame)
+
     text = "Sem Movimento"
 
     # Se não existir frame atual, quer dizer que o vídeo chegou ao fim e termina o ciclo
@@ -102,11 +107,11 @@ while True:
 
     frame = cv2.resize(frame, (frame_width, frame_height))
     # Mostrar o vídeo/frames
-    cv2.imshow("Security Feed", frame)
+    cv2.imshow("Frame", frame)
     # Guardar o vídeo, frame por frame, no computador
     out.write(frame)
 
-    key = cv2.waitKey(50) & 0xFF
+    key = cv2.waitKey(200) & 0xFF
     if key == ord("q"):
         break
 
