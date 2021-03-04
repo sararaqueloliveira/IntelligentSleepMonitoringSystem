@@ -1,3 +1,6 @@
+import numpy as np
+import xml.etree.ElementTree as ET
+
 
 # função do cálculo do valor do IOU entre dois retângulos de regiôes
 def bb_intersection_over_union(boxA, boxB):
@@ -21,3 +24,15 @@ def bb_intersection_over_union(boxA, boxB):
 	
 	return iou
 	
+def calc_mean(array):
+	return np.mean(array)
+
+def xml_to_array(file_path):
+	tree = ET.parse(file_path)
+	root = tree.getroot()
+	myArray=[]
+
+	for x in root.findall('field'):
+		myArray.append(x.text)
+
+	print(myArray) 
