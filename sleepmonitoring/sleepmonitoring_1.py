@@ -2,10 +2,10 @@ import argparse
 import datetime
 import imutils
 import cv2
-from Prediction import Prediction
+from prediction import Prediction
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-v", "--video", help="Vídeo de Input", default="input/baby_awake_short.mp4")
+ap.add_argument("-v", "--video", help="Vídeo de Input", default="C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/baby_awake_short.mp4")
 ap.add_argument("-a", "--min-area", type=int, default=5000, help="Área mínima de movimento")
 args = vars(ap.parse_args())
 
@@ -16,13 +16,13 @@ frame_height = int(vs.get(4))
 
 # Incializar a gravação do vídeo output no computador
 fourcc = cv2.VideoWriter_fourcc(*'avc1')
-out = cv2.VideoWriter('output/baby_awake.mp4', fourcc, vs.get(cv2.CAP_PROP_FPS), (frame_width, frame_height), 1)
+out = cv2.VideoWriter('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/output/baby_awake.mp4', fourcc, vs.get(cv2.CAP_PROP_FPS), (frame_width, frame_height), 1)
 
 # Criar um ficheiro de texto com o relatório dos movimentos do sono
-f = open("output/relatorio_movimentos.txt", "w+")
+f = open("C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/output/relatorio_movimentos.txt", "w+")
 
 # Criar um ficheiro para guardar as bounding-box estimadas
-f_iou = open("Intersection_Over_Union/IOU_baby_awake/prediction.txt", "w+")
+f_iou = open("C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/evaluation/Intersection_Over_Union/teste1/teste.txt", "w+")
 
 # Inicializar as variáveis auxiliares no processamento do vídeo
 background = None

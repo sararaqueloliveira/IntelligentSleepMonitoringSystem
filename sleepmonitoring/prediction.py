@@ -11,10 +11,10 @@ class Prediction:
     left_eye_start_index, left_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
     right_eye_start_index, right_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
-    facial_landmarks_predictor = './classifiers/68_face_landmarks_predictor.dat'
+    facial_landmarks_predictor = 'C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/classifiers/68_face_landmarks_predictor.dat'
     predictor = dlib.shape_predictor(facial_landmarks_predictor)
 
-    model = load_model('classifiers/weights.149-0.01.hdf5')
+    model = load_model('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/classifiers/weights.149-0.01.hdf5')
 
     def predict_eye_state(self, image):
         image = cv2.resize(image, (20, 10))
