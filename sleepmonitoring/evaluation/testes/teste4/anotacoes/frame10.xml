@@ -1,0 +1,26 @@
+<annotation>
+	<folder>frames</folder>
+	<filename>frame10.jpg</filename>
+	<path>C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\sleepmonitoring\evaluation\testes\teste4\frames\frame10.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>596</width>
+		<height>336</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>305</xmin>
+			<ymin>91</ymin>
+			<xmax>406</xmax>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

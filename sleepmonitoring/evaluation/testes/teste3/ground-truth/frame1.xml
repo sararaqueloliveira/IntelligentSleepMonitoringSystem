@@ -1,0 +1,26 @@
+<annotation>
+	<folder>frames</folder>
+	<filename>frame1.jpg</filename>
+	<path>C:\Users\sarar\PycharmProjects\Tese_de_Mestrado_Imagem\sleepmonitoring\evaluation\Intersection_Over_Union\teste_1\frames\frame1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>596</width>
+		<height>336</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>face</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>235</xmin>
+			<ymin>84</ymin>
+			<xmax>359</xmax>
+			<ymax>181</ymax>
+		</bndbox>
+	</object>
+</annotation>

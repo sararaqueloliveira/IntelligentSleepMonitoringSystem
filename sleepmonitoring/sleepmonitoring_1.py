@@ -3,9 +3,10 @@ import datetime
 import imutils
 import cv2
 from prediction import Prediction
+import math
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-v", "--video", help="Vídeo de Input", default="C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/baby_awake_short.mp4")
+ap.add_argument("-v", "--video", help="Vídeo de Input", default="C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/child-going-to-sleep.mp4")
 ap.add_argument("-a", "--min-area", type=int, default=5000, help="Área mínima de movimento")
 args = vars(ap.parse_args())
 
@@ -13,16 +14,17 @@ args = vars(ap.parse_args())
 vs = cv2.VideoCapture(args["video"])
 frame_width = int(vs.get(3))
 frame_height = int(vs.get(4))
+frameRate = vs.get(cv2.CAP_PROP_FPS)
 
 # Incializar a gravação do vídeo output no computador
 fourcc = cv2.VideoWriter_fourcc(*'avc1')
-out = cv2.VideoWriter('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/output/baby_awake.mp4', fourcc, vs.get(cv2.CAP_PROP_FPS), (frame_width, frame_height), 1)
+out = cv2.VideoWriter('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/output/teste1.mp4', fourcc, vs.get(cv2.CAP_PROP_FPS), (frame_width, frame_height), 1)
 
 # Criar um ficheiro de texto com o relatório dos movimentos do sono
 f = open("C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/output/relatorio_movimentos.txt", "w+")
 
 # Criar um ficheiro para guardar as bounding-box estimadas
-f_iou = open("C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/evaluation/Intersection_Over_Union/teste1/teste.txt", "w+")
+f_prediction = open("C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//teste4//prediction.txt", "w+")
 
 # Inicializar as variáveis auxiliares no processamento do vídeo
 background = None
@@ -36,16 +38,16 @@ i = 0
 while True:
     frame = vs.read()
     frame = frame if args.get("video", None) is None else frame[1]
-    #cv2.imwrite('C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/Intersection_Over_Union/IOU_baby_awake/frames/frame' + str(i) + '.jpg', frame)
+    frameId = vs.get(1)
 
     text = "Sem Movimento"
 
     # Se não existir frame atual, quer dizer que o vídeo chegou ao fim e termina o ciclo
     if frame is None:
-        f.write("\nNumero Total de Movimentos: " + str(n_movimentos))
-        f.write("\nNumero Total de Frames: " + str(n_frames))
+        f.write("//nNumero Total de Movimentos: " + str(n_movimentos))
+        f.write("//nNumero Total de Frames: " + str(n_frames))
         taxa = (n_movimentos / n_frames) * 100
-        f.write("\nTaxa de Movimentacao durante o sono: " + str(taxa) + "%")
+        f.write("//nTaxa de Movimentacao durante o sono: " + str(taxa) + "%")
         break
 
     # Redimensionar a frame de modo a torná-la mais pequena e tornar o processamento mais rápido
@@ -98,7 +100,7 @@ while True:
     if text == "Movimento":
         n_movimentos = n_movimentos + 1
         f.write("Movimento | " + datetime.datetime.now().strftime("%A %d %B") + " | " +
-                datetime.datetime.now().strftime("%I:%M:%S%p") + "\n")
+                datetime.datetime.now().strftime("%I:%M:%S%p") + "//n")
 
     # Localizar os olhos e detetar o seu estado (abertos/fechados/semi-abertos)
     prediction = Prediction()
@@ -106,21 +108,25 @@ while True:
     print(face_box)
 
     # Escrever num ficheiro as coordenadas da face
-    f_iou.write(face_box + "\n")
+
+    if (frameId % math.floor(frameRate) == 0):
+        f_prediction.write(face_box + "\n")
+        cv2.imwrite('C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//teste5//frames//frame' + str(i) + '.jpg', frame)
+        out.write(frame)
+        i += 1
 
     frame = cv2.resize(frame, (frame_width, frame_height))
     # Mostrar o vídeo/frames
     cv2.imshow("Frame", frame)
     # Guardar o vídeo, frame por frame, no computador
-    out.write(frame)
 
-    key = cv2.waitKey(200) & 0xFF
+    key = cv2.waitKey(1) & 0xFF
     if key == ord("q"):
         break
 
 # Fechar todas as janelas
 f.close()
-f_iou.close()
+f_prediction.close()
 vs.stop() if args.get("video", None) is None else vs.release()
 out.release()
 cv2.destroyAllWindows()

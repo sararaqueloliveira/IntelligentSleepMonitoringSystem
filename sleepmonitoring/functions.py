@@ -1,5 +1,8 @@
 import numpy as np
 import xml.etree.ElementTree as ET
+import cv2
+import math
+import os
 
 
 # função do cálculo do valor do IOU entre dois retângulos de regiôes
@@ -36,3 +39,34 @@ def xml_to_array(file_path):
 		myArray.append(x.text)
 
 	print(myArray) 
+
+def save_video_by_second(video, folder):
+	path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//data//output//evaluation//" + folder
+	
+	try:
+		os.mkdir(path)
+	except OSError:
+		print ("Creation of the directory %s failed" % path)
+	else:
+		print ("Successfully created the directory %s " % path)
+
+	cap = cv2.VideoCapture(video)
+	frameRate = cap.get(cv2.CAP_PROP_FPS)  #frame rate
+	print(frameRate);
+
+	x = 1
+	while(cap.isOpened()):
+		frameId = cap.get(1) #current frame number
+		print(frameId);
+		ret, frame = cap.read()
+
+		if (ret != True):
+			break
+
+		if (frameId % math.floor(frameRate) == 0):
+			filename = path + "//" + str(int(x)) + ".jpg";
+			x += 1
+			cv2.imwrite(filename, frame)
+
+	cap.release()
+	print ("Done!")
