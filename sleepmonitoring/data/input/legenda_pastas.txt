@@ -1,0 +1,67 @@
+*** Criança ***
+***************
+
+- Escuro:
+	- vídeo 11
+	
+- Claro:
+	- vídeo 1
+	- vídeo 2
+	- vídeo 3
+	- vídeo 9
+	- vídeo 13
+	- vídeo 14
+	- vídeo 15
+	- vídeo 19
+	- vídeo 20
+	- vídeo 32
+	- vídeo 33
+	- vídeo 34
+	
+------------------------
+
+*** Adulto ***
+***************
+
+- Escuro:
+	- vídeo 8
+	- vídeo 10
+	- vídeo 17
+	- vídeo 18
+	- vídeo 21
+	- vídeo 30
+	- vídeo 31
+	
+- Claro:
+	- vídeo 4
+	- vídeo 5
+	- vídeo 6
+	- vídeo 7
+	- vídeo 16
+	- vídeo 22
+	- vídeo 23
+	- vídeo 24
+	- vídeo 25
+	- vídeo 26
+	- vídeo 27
+	- vídeo 28
+	- vídeo 29
+
+------------------------
+
+*** Gratuitos ***
+*****************
+
+- vídeo 22
+- vídeo 23
+- vídeo 24
+- vídeo 25
+- vídeo 26
+- vídeo 27
+- vídeo 28
+- vídeo 29
+- vídeo 30
+- vídeo 31
+- vídeo 32
+- vídeo 33
+- vídeo 34

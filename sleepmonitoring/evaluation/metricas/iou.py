@@ -1,9 +1,9 @@
 from __init__ import *
 
 Detection = namedtuple("Detection", ["gt", "pred"])
-video_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/baby_awake.mp4"
-pred_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//teste3//prediction.txt"
-gt_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//teste3//gt.txt"
+video_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/video_21.webm"
+pred_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//video_21//prediction.txt"
+gt_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//video_21//anotacoes//rosto//gt.txt"
 
 def fillDetectionsArray(pred_file_path, gt_file_path):
 	detections = []
@@ -39,14 +39,15 @@ if __name__ == "__main__":
 	vs = cv2.VideoCapture(video_path)
 
 	detections = fillDetectionsArray(pred_file_path, gt_file_path)
-
+	i = 1
 	for detection in detections:
-
+		print(i)
+		i = i + 1
 		frame = vs.read()
 		frame = frame if vs is None else frame[1]
 
 		# desenhar a ground-truth box e a predicted box
-		cv2.rectangle(frame, tuple(detection.gt[:2]), tuple(detection.gt[2:]), (0, 255, 0), 2)
+		cv2.rectangle(frame, tuple(detection.gt[:2]), tuple(detection.gt[2:]), (255, 255, 0), 2)
 		cv2.rectangle(frame, tuple(detection.pred[:2]), tuple(detection.pred[2:]), (0, 0, 255), 2)
 
 		# calcular a intersection over union

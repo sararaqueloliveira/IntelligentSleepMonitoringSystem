@@ -26,11 +26,13 @@ class Prediction:
 
     def predict_face(self, frame):
         face_box = "0, 0, 0, 0"
-        image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        original_height, original_width = image.shape[:2]
-        resized_image = cv2.resize(image, (0, 0), fx=0.5, fy=0.5)
+
+        original_height, original_width = frame.shape[:2]
+        resized_image = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
+        
         # resized_image = cv2.resize(image, (500, 500))
-        lab = cv2.cvtColor(resized_image, cv2.COLOR_BGR2LAB)
+        #lab = cv2.cvtColor(resized_image, cv2.COLOR_RGB2LAB)
+        lab = resized_image
         l, _, _ = cv2.split(lab)
         resized_height, resized_width = l.shape[:2]
         height_ratio, width_ratio = original_height / resized_height, original_width / resized_width
@@ -48,7 +50,7 @@ class Prediction:
             x2 = int(x2 * width_ratio)
             y2 = int(y2 * height_ratio)
 
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
             shape = self.predictor(gray, dlib.rectangle(x1, y1, x2, y2))
 
             face_landmarks = face_utils.shape_to_np(shape)
