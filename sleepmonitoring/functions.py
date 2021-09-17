@@ -64,6 +64,7 @@ def parse_xml_anotation_files(folder_rel_path):
 	folder_path = project_path + folder_rel_path
 	print(folder_path)
 	file_pred = open(folder_path + "//" +  "gt.txt","w+")
+	print(file_pred)
 
 	files = get_ordered_files(folder_path)
 
@@ -117,6 +118,17 @@ def prepare_evaluation(flag_anotacoes, flag_video):
 		if filenames:
 			for video in filenames[0]:
 				if video.endswith(".mp4") or video.endswith(".webm"):
-					folder_path = project_path + "sleepmonitoring//evaluation//testes//teste" + str(i)
+					folder_path = project_path + "sleepmonitoring//evaluation//testes//monitoring" + str(i)
 					save_video_by_second(project_path + "sleepmonitoring//data//input//" + video, folder_path + "//frames")
 					i = i + 1
+
+# Escrever o relatório final
+def write_final_report(n_frames, n_movements):
+	f = open(project_path + "/data/output/relatorio_movimentos.txt", "w+")
+
+	f.write("//nNumero Total de Movimentos: " + str(n_movements))
+	f.write("//nNumero Total de Frames: " + str(n_frames))
+	taxa = (n_movements / n_frames) * 100
+	f.write("//nTaxa de Movimentacao durante o sono: " + str(taxa) + "%")
+
+	f.close()

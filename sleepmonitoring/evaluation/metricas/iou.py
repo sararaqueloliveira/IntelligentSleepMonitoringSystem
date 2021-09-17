@@ -1,9 +1,9 @@
 from __init__ import *
 
 Detection = namedtuple("Detection", ["gt", "pred"])
-video_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/video_21.webm"
-pred_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//video_21//prediction.txt"
-gt_file_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//video_21//anotacoes//rosto//gt.txt"
+video_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/data/input/video_34.mp4"
+pred_file_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/evaluation/testes/video_34/prediction.txt"
+gt_file_path = "C:/Users/sarar/PycharmProjects/Tese_de_Mestrado_Imagem/sleepmonitoring/evaluation/testes/video_34/anotacoes/rosto/gt.txt"
 
 def fillDetectionsArray(pred_file_path, gt_file_path):
 	detections = []

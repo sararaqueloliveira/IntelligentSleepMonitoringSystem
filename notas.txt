@@ -1,0 +1,26 @@
+# Escrever num ficheiro as coordenadas da face
+if (frameId % math.floor(frameRate) == 0):
+	#f_prediction.write(face_box + "\n")
+	cv2.imwrite('C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//sleepmonitoring//evaluation//testes//video_30//predicoes//frame' + str(i) + '.jpg', frame)
+	#out.write(frame)
+	i += 1
+
+
+# Plot the signal read from wav file
+plt.subplot(211)
+plt.title('Spectrogram of the wav file')
+plt.plot(wav_data)
+
+plt.xlabel('Sample')
+
+plt.ylabel('Amplitude')
+
+plt.subplot(212)
+
+plt.specgram(wav_data[:, 0], Fs=sample_rate,  xextent=(0, 30))
+
+plt.xlabel('Time')
+
+plt.ylabel('Frequency')
+
+plt.show()
