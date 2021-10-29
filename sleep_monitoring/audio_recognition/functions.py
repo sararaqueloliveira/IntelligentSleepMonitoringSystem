@@ -3,6 +3,7 @@ import csv
 from scipy import signal
 import numpy as np
 import pandas as pd
+import tensorflow_io as tfio
 
 
 # Find the name of the class with the top score when mean-aggregated across frames.
@@ -35,15 +36,14 @@ def sine_generator(fs, sinefreq, duration):
     return result
 
 
-def butter_highpass(cutoff, fs, order=5):
-    nyq = 0.5 * fs
-    normal_cutoff = cutoff / nyq
-    b, a = signal.butter(order, normal_cutoff, btype='high', analog=False)
-    return b, a
-
-
-def butter_highpass_filter(data, cutoff, fs, order=5):
-    b, a = butter_highpass(cutoff, fs, order=order)
-    y = signal.filtfilt(b, a, data)
-    return y
-
+@tf.function
+def load_wav_16k_mono(filename):
+    """ Load a WAV file, convert it to a float tensor, resample to 16 kHz single-channel audio. """
+    file_contents = tf.io.read_file(filename)
+    wav, sample_rate = tf.audio.decode_wav(
+          file_contents,
+          desired_channels=1)
+    wav = tf.squeeze(wav, axis=-1)
+    sample_rate = tf.cast(sample_rate, dtype=tf.int64)
+    wav = tfio.audio.resample(wav, rate_in=sample_rate, rate_out=16000)
+    return wav
