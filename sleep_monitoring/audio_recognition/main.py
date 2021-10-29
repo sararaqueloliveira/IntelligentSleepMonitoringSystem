@@ -9,10 +9,14 @@ import tensorflow_hub as hub
 # load yamnet model
 print("Loading yamnet_1 model...")
 model = hub.load('../../models/yamnet_1')
+#model = hub.load('../../models/yamnet_retrained')
+#model = tf.saved_model.load('../../models/yamnet_retrained')
+#model = tf.saved_model.load('yamnet_retrained')
 print("Model loaded successfully!")
 
 class_map_path = model.class_map_path().numpy()
 class_names = class_names_from_csv(class_map_path)
+#class_names = ['Breathing', 'Snoring', 'Silence']
 
 n = 101
 # a = signal.firwin(n, cutoff=0.3, window="hanning", pass_zero=False)

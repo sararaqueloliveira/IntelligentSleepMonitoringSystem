@@ -113,8 +113,8 @@ def pose_classification(frame, pair):
 
 def detect_body_part_movement(points, rect):
     body_parts = []
-    head = ["Nose", "Neck", "REye", "LEye", "REar", "LEar"]
-    upper_body = ["RShoulder", "LShoulder", "LHip", "RHip"]
+    head = ["Nose", "REye", "LEye", "REar", "LEar"]
+    upper_body = ["RShoulder", "LShoulder", "LHip", "RHip", "Neck"]
     arms = ["RWrist", "RElbow", "LElbow", "LWrist"]
     down_body = ["LKnee", "LAnkle", "RKnee", "RAnkle"]
 

@@ -5,10 +5,11 @@ from imutils import face_utils
 import dlib
 import cv2
 from scipy.spatial import distance as dist
+import face_recognition
 
 left_eye_start_index, left_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 right_eye_start_index, right_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
-MINIMUM_EAR = 0.4
+MINIMUM_EAR = 0.25
 
 detector = dlib.get_frontal_face_detector()
 facial_landmarks_predictor = '../models/face_predictor/68_face_landmarks_predictor.dat'
@@ -16,11 +17,6 @@ predictor = dlib.shape_predictor(facial_landmarks_predictor)
 
 model = load_model('../models/face_predictor/weights.149-0.01.hdf5')
 
-
-def sleep_status(gray, frame):
-    frame = face_recognition(gray, frame)
-
-    return frame
 
 
 # Second step: Eye state recognition
@@ -49,9 +45,11 @@ def predict_eye_state(landmarks, image):
 
 
 # First step: Face recognition in frame
-def face_recognition(gray, frame):
+def sleep_status(gray, frame):
     # the detector will find the bounding box of the face found in the frame
     dets = detector(gray, 1)
+    x1, y1, x2, y2 = 0, 0, 0, 0
+
 
     # Through the detected bounding box, the landing marks of the face are detected
     for (i, dect) in enumerate(dets):
@@ -60,15 +58,20 @@ def face_recognition(gray, frame):
 
         # draw the face bounding box through the coordinates
         (x, y, w, h) = face_utils.rect_to_bb(dect)
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 0), 2)
+        x1 = x
+        y1 = y
+        x2 = x + w
+        y2 = y + h
+        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 2)
 
         # find the coordinates for the facial landmarks and draw them
-        # for (x, y) in face_landmarks:
+        #for (x, y) in face_landmarks:
         #    cv2.circle(frame, (x, y), 1, (0, 0, 117), -2)
 
         frame = predict_eye_state(face_landmarks, frame)
 
-    return frame
+    face_box = str(x1) + ', ' + str(y1) + ', ' + str(x2) + ', ' + str(y2)
+    return face_box, frame
 
 
 def eye_aspect_ratio(eye):
