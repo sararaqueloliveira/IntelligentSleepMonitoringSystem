@@ -4,6 +4,7 @@ import cv2
 import math
 import os
 import re
+from pydub import AudioSegment
 
 project_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//"
 

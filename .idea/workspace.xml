@@ -20,119 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7d61c3-d19c-434a-8446-1f43eeeecf50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Tese_de_Mestrado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tese_de_Mestrado.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleep_monitoring_v2/audio_recognition/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/classifiers/68_face_landmarks_predictor.dat" beforeDir="false" afterPath="$PROJECT_DIR$/models/face_predictor/68_face_landmarks_predictor.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/classifiers/weights.149-0.01.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/models/face_predictor/weights.149-0.01.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_2.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_4.m4a" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_4.m4a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_5.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_5.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_6.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_6.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_6a.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_6a.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_7.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_7.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_8_spec.wav" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_8_spec.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/audio/audio_9.m4a" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/audio/audio_9.m4a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/legenda_pastas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/legenda_pastas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/movimento_videos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/movimento_videos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_10.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_10.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_11.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_11.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_13.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_13.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_14.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_14.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_15.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_15.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_16.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_16.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_17.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_17.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_18.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_18.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_19.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_19.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_20.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_20.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_21.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_21.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_23.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_23.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_24.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_24.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_25.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_25.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_27.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_27.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_28.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_28.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_29.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_29.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_3.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_3.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_30.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_30.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_31.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_31.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_32.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_32.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_33.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_33.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_34.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_34.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_4.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_4.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_5.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_5.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_6.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_6.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_7.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_7.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_8.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_8.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/input/videos/video_9.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/input/videos/video_9.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/baby_awake.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/baby_awake.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/deeplearning/man_movement_bed.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/deeplearning/man_movement_bed.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/deeplearning/unknown.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/deeplearning/unknown.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/man_movement_bed.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/man_movement_bed.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/relatorio_movimentos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/relatorio_movimentos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/teste1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/teste1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/teste2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/teste2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/teste4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/teste4.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/teste5.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/teste5.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_10.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_10.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_10.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_10.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_11.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_11.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_11.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_11.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_12.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_12.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_13.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_13.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_13.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_13.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_14.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_14.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_14.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_14.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_15.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_15.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_15.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_15.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_16.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_16.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_16.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_16.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_17.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_17.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_17.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_17.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_18.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_18.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_18.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_18.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_19.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_19.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_19.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_19.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_20.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_20.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_20.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_20.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_21.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_21.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_21.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_21.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_22.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_22.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_23.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_23.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_24.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_24.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_25.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_25.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_26.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_26.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_27.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_27.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_28.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_28.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_29.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_29.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_3.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_3.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_3.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_3.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_30.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_30.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_31.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_31.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_32.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_32.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_33.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_33.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_34.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_34.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_35.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_35.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_4.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_4.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_4.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_4.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_5.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_5.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_5.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_5.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_6.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_6.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_6.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_6.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_7.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_7.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_7.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_7.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_8.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_8.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_8.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_8.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_9.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_9.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/data/output/video_9.webm" beforeDir="false" afterPath="$PROJECT_DIR$/data/output/video_9.webm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleepmonitoring/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sleepmonitoring/sleep_status/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleepmonitoring/sleep_status/prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleep_monitoring/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleep_monitoring/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleep_monitoring/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleep_monitoring/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleep_monitoring/motion_detection/motion_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleep_monitoring/motion_detection/motion_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleep_monitoring/sleep_status/sleep_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/sleep_monitoring/sleep_status/sleep_status.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,68 +52,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models/pose_estimation" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sleep_monitoring/motion_detection" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring\motion_detection" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring_v2\audio_recognition" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\models" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\models\face_predictor" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring_v2" />
-      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\models\pose_estimation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring\motion_detection" />
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\evaluation\metrics" />
+      <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring\audio_recognition" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\models\pose_estimation" />
       <recent name="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\monitoring" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Tese_de_Mestrado" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring_v2/audio_recognition" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring_v2/audio_recognition/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Tese_de_Mestrado" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/monitoring" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/monitoring/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tese_de_Mestrado" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tese_de_Mestrado" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,12 +102,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring_v2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring/audio_recognition/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="metrics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tese_de_Mestrado" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,12 +124,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleepmonitoring/audio_recognition" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation/metrics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\sarar\PycharmProjects\Tese_de_Mestrado\sleep_monitoring_v2\audio_recognition\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/metrics/metrics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pose_estimation_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tese_de_Mestrado" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,12 +146,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring/motion_detection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring/motion_detection/pose_estimation_2" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="retrain_yamnet (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tese_de_Mestrado" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep_monitoring/audio_recognition/retrain_yamnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.pose_estimation_2" />
+        <item itemvalue="Python.metrics" />
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.retrain_yamnet (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +221,17 @@
       <workItem from="1634471508776" duration="5917000" />
       <workItem from="1634505011454" duration="5849000" />
       <workItem from="1634554038280" duration="12218000" />
-      <workItem from="1634646553520" duration="6795000" />
+      <workItem from="1634646553520" duration="7528000" />
+      <workItem from="1634729811443" duration="5140000" />
+      <workItem from="1634740881958" duration="17178000" />
+      <workItem from="1635078370610" duration="562000" />
+      <workItem from="1635114057296" duration="17696000" />
+      <workItem from="1635332432312" duration="29586000" />
+      <workItem from="1635521171372" duration="3282000" />
+      <workItem from="1635695166362" duration="2130000" />
+      <workItem from="1635698203372" duration="8822000" />
+      <workItem from="1635808031173" duration="1646000" />
+      <workItem from="1635810611672" duration="462000" />
     </task>
     <servers />
   </component>
@@ -366,74 +251,99 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633264301892">
+    <state x="499" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635521277541">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="499" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1633264301892" />
+    <state x="2067" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634746723811" />
+    <state x="499" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1635521277541" />
     <state x="702" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1631372107611" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1631980296744">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1631980296744" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1634728225638">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1323" height="243" key="GridCell.Tab.0.bottom" timestamp="1635809690433">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1634658080114" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634728225638" />
-    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1634511715994" />
+    <state width="1323" height="243" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635779869919" />
+    <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1635341988469" />
+    <state width="1323" height="243" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1635809690433" />
     <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1634728225638">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1323" height="243" key="GridCell.Tab.0.center" timestamp="1635809690433">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1634658080113" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634728225638" />
-    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1634511715994" />
+    <state width="1323" height="243" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635779869919" />
+    <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1635341988469" />
+    <state width="1323" height="243" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1635809690433" />
     <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1634728225638">
-      <screen x="1366" y="0" width="1920" height="1080" />
+    <state width="1323" height="243" key="GridCell.Tab.0.left" timestamp="1635809690433">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1634658080113" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634728225638" />
-    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1634511715994" />
+    <state width="1323" height="243" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635779869919" />
+    <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1635341988469" />
+    <state width="1323" height="243" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1635809690433" />
     <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1634728225638">
+    <state width="1323" height="243" key="GridCell.Tab.0.right" timestamp="1635809690433">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="243" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635779869919" />
+    <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1635341988469" />
+    <state width="1323" height="243" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1635809690433" />
+    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom" timestamp="1635435486423">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635435486423" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634750963950" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1634772302173" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
+    <state width="1323" height="230" key="GridCell.Tab.1.center" timestamp="1635435486423">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635435486423" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634750963950" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1634772302173" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
+    <state width="1323" height="230" key="GridCell.Tab.1.left" timestamp="1635435486423">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635435486423" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634750963950" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1634772302173" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
+    <state width="1323" height="230" key="GridCell.Tab.1.right" timestamp="1635435486423">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="230" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635435486423" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634750963950" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1634772302173" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
+    <state x="1860" y="192" key="SettingsEditor" timestamp="1634731446093">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1634658080113" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634728225638" />
-    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1634511715994" />
-    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1631990507353">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1631990507353">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1631990507353">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1631990507353">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1631990507353" />
-    <state x="790" y="197" key="SettingsEditor" timestamp="1631981458151">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
+    <state x="1860" y="192" key="SettingsEditor/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634731446093" />
     <state x="790" y="197" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1631981458151" />
     <state x="2034" y="115" width="583" height="849" key="find.popup" timestamp="1634556123148">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2034" y="115" width="583" height="849" key="find.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1634556123148" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1635781753872">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768/1366.0.1920.1080@0.0.1366.768" timestamp="1635781753872" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$test.coverage" NAME="test Coverage Results" MODIFIED="1631987854678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring" />
-    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1631878199431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/monitoring" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$metrics.coverage" NAME="metrics Coverage Results" MODIFIED="1635422817634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation/metrics" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$retrain_model2.coverage" NAME="retrain_model2 Coverage Results" MODIFIED="1634747263144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$iou.coverage" NAME="iou Coverage Results" MODIFIED="1635351030077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/evaluation/metrics" />
     <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1632178177421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main.coverage" NAME="main Coverage Results" MODIFIED="1635809651034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1635422775476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$pose_estimation_2.coverage" NAME="pose_estimation_2 Coverage Results" MODIFIED="1635524262959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/motion_detection" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$test.coverage" NAME="test Coverage Results" MODIFIED="1631987854678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$retrain_model.coverage" NAME="retrain_model Coverage Results" MODIFIED="1634741424415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1634769912304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$retrain_yamnet__1_.coverage" NAME="retrain_yamnet (1) Coverage Results" MODIFIED="1635419786351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring/audio_recognition" />
     <SUITE FILE_PATH="coverage/Tese_de_Mestrado$teste.coverage" NAME="teste Coverage Results" MODIFIED="1631449900970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleepmonitoring/audio_recognition" />
-    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1634658080097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring_v2/audio_recognition" />
-    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main.coverage" NAME="main Coverage Results" MODIFIED="1634560342721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring_v2" />
+    <SUITE FILE_PATH="coverage/Tese_de_Mestrado$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1635350720225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sleep_monitoring" />
   </component>
 </project>

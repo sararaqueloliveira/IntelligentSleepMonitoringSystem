@@ -9,7 +9,7 @@ import face_recognition
 
 left_eye_start_index, left_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 right_eye_start_index, right_eye_end_index = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
-MINIMUM_EAR = 0.25
+MINIMUM_EAR = 0.3
 
 detector = dlib.get_frontal_face_detector()
 facial_landmarks_predictor = '../models/face_predictor/68_face_landmarks_predictor.dat'
@@ -40,7 +40,7 @@ def predict_eye_state(landmarks, image):
     else:
         state = 'awake'
 
-    cv2.putText(image, "Sleep state: " + state, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 130), 2)
+    cv2.putText(image, "Sleep status: " + state, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 130), 2)
     return image
 
 
@@ -49,7 +49,6 @@ def sleep_status(gray, frame):
     # the detector will find the bounding box of the face found in the frame
     dets = detector(gray, 1)
     x1, y1, x2, y2 = 0, 0, 0, 0
-
 
     # Through the detected bounding box, the landing marks of the face are detected
     for (i, dect) in enumerate(dets):
