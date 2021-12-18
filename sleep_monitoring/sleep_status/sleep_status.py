@@ -40,15 +40,16 @@ def predict_eye_state(landmarks, image):
     else:
         state = 'awake'
 
-    cv2.putText(image, "Sleep status: " + state, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 130), 2)
-    return image
+    return state
 
 
 # First step: Face recognition in frame
-def sleep_status(gray, frame):
+def sleep_status(gray, frame, landmarks_flag):
     # the detector will find the bounding box of the face found in the frame
     dets = detector(gray, 1)
     x1, y1, x2, y2 = 0, 0, 0, 0
+    state = ''
+    landmarks = []
 
     # Through the detected bounding box, the landing marks of the face are detected
     for (i, dect) in enumerate(dets):
@@ -61,16 +62,17 @@ def sleep_status(gray, frame):
         y1 = y
         x2 = x + w
         y2 = y + h
-        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 2)
 
         # find the coordinates for the facial landmarks and draw them
-        #for (x, y) in face_landmarks:
-        #    cv2.circle(frame, (x, y), 1, (0, 0, 117), -2)
+        if landmarks_flag > 0:
+            for (x, y) in face_landmarks:
+                landmarks.append((x, y))
+                #cv2.circle(frame, (x, y), 1, (0, 0, 117), -2)
 
-        frame = predict_eye_state(face_landmarks, frame)
+        state = predict_eye_state(face_landmarks, frame)
 
-    face_box = str(x1) + ', ' + str(y1) + ', ' + str(x2) + ', ' + str(y2)
-    return face_box, frame
+    face_box = (x1, y1, x2, y2)
+    return face_box, state
 
 
 def eye_aspect_ratio(eye):

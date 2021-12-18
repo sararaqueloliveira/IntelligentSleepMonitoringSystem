@@ -304,30 +304,3 @@ your_top_score = class_probabilities[your_top_class]
 print(f'[Your model] The main sound is: {your_infered_class} ({your_top_score})')
 
 plot_waveform(waveform, spectrogram, filename)
-
-def save_classes_to_csv(file):
-    with open(file, 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(["index", "mid", "display_name"])
-        for class_name in my_classes:
-            writer.writerow([0, 0, class_name])
-
-
-print(f"\nSaving '{saved_model_name}' classes to .csv file...")
-save_classes_to_csv(saved_model_path + '/assets/yamnet_class_map.csv')
-save_classes_to_csv(tflite_models_dir + "/" + saved_model_name + '_class_map.csv')
-
-"""
-Convert Model to TFLite
-"""
-print(f"\nConverting '{saved_model_name}' to TFLite...")
-converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)  # path to the SavedModel directory
-converter.target_spec.supported_ops = [
-    tf.lite.OpsSet.TFLITE_BUILTINS,  # enable TensorFlow Lite ops.
-    # tf.lite.OpsSet.SELECT_TF_OPS  # enable TensorFlow ops.
-]
-tflite_model = converter.convert()
-
-# Save the model.
-with open(tflite_models_dir + "/" + saved_model_name + ".tflite", 'wb') as f:
-    f.write(tflite_model)

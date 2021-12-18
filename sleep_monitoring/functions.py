@@ -4,7 +4,6 @@ import cv2
 import math
 import os
 import re
-from pydub import AudioSegment
 
 project_path = "C://Users//sarar//PycharmProjects//Tese_de_Mestrado_Imagem//"
 
@@ -130,13 +129,9 @@ def prepare_evaluation(flag_anotacoes, flag_video):
                     i = i + 1
 
 
-# Escrever o relatório final
-def write_final_report(n_frames, n_movements):
-    f = open(project_path + "/data/output/relatorio_movimentos.txt", "w+")
-
-    f.write("//nNumero Total de Movimentos: " + str(n_movements))
-    f.write("//nNumero Total de Frames: " + str(n_frames))
+# Conclude the final report with the ratio of number of movements detected
+def write_final_report(report, n_frames, n_movements):
+    report.write("//nNumero Total de Movimentos: " + str(n_movements))
+    report.write("//nNumero Total de Frames: " + str(n_frames))
     taxa = (n_movements / n_frames) * 100
-    f.write("//nTaxa de Movimentacao durante o sono: " + str(taxa) + "%")
-
-    f.close()
+    report.write("//nTaxa de Movimentacao durante o sono: " + str(taxa) + "%")
